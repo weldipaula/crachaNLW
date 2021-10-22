@@ -21,7 +21,7 @@ body {
 }
 
 main {
-  background: url(/images/bg.svg);
+  background: url(images/bg.svg);
   width: 375px;
   height: 812px;
 }
