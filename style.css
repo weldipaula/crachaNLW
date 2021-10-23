@@ -104,6 +104,15 @@ a {
   justify-content: center;
   align-items: center;
 }
+#socialLinks img {
+  transition: 1s;
+}
+
+#socialLinks img:hover {
+  border-radius: 1rem;
+  box-shadow: 1px 1px 10px var(--grey);
+  transition: 0.2s ease;
+}
 
 p {
   margin-top: 2rem;
@@ -116,6 +125,10 @@ ul {
   display: flex;
   gap: 0.5rem;
   justify-content: center;
+}
+
+.socialMedia:hover {
+  border-radius: 1rem;
 }
 
 @media (max-width: 960px) {
